@@ -8,7 +8,7 @@ import "@nomicfoundation/hardhat-toolbox";
 import "hardhat-deploy"
 import "hardhat-packager";
 import "hardhat-tracer";
-import "@openzeppelin/hardhat-upgrades";
+// import "@openzeppelin/hardhat-upgrades";
 dotenv.config({ path: "./.env" });
 
 const {
@@ -70,7 +70,7 @@ const config: HardhatUserConfig = {
   solidity: {
     compilers: [
       {
-        version: "0.8.21",
+        version: "0.8.20",
         settings: sharedCompilerConfig,
       },
     ],
